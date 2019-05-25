@@ -1,2 +1,2 @@
 # kaggle_competitions
-Ipynb notebooks for my kaggle competions and otherside-projects
+Ipynb notebooks for my kaggle competions and other side-projects
