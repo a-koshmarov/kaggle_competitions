@@ -1,0 +1,55 @@
+Program
+EmptyVar x
+EmptyVar y
+Semicolon
+BasicBlock
+Label 1
+Jump
+If
+Expression
+Var x
+Op ==
+Var y
+GoTo 7
+GoTo 2
+Semicolon
+BasicBlock
+Label 2
+Jump
+If
+Expression
+Var x
+Op <
+Var y
+GoTo 5
+GoTo 3
+Semicolon
+BasicBlock
+Label 3
+Assignment
+Var x
+Expression
+Var x
+Op -
+Var y
+Jump
+GoTo 1
+Semicolon
+BasicBlock
+Label 5
+Assignment
+Var y
+Expression
+Var y
+Op -
+Var x
+Jump
+GoTo 1
+Semicolon
+BasicBlock
+Label 7
+Jump
+Return
+Expression
+Var x
+Semicolon
